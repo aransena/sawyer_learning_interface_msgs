@@ -1,0 +1,26 @@
+#goal definition
+# path to folder containing task demonstration bag files.
+# Bag files should contain task trajectory and task frames.
+string method
+string skill_folder
+int16 num_states
+float32 reg
+float1d start_pose
+float1d grab_pose
+float1d place_pose
+---
+#result definition
+bool success
+string output_file
+float1d[] x
+float1d[] y
+float1d[] z
+float1d[] xx
+float1d[] yy
+float1d[] zz
+float1d[] ww
+float1d[] hand
+
+---
+#feedback
+string status
